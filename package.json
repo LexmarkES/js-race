@@ -1,0 +1,44 @@
+{
+  "name": "js-race",
+  "version": "1.1.2",
+  "description": "browser-driven load driver using selenium webdriver",
+  "keywords": [
+    "performance",
+    "load driver",
+    "selenium",
+    "webdriver",
+    "phantomjs"
+  ],
+  "homepage": "http://www.github.com/Lexmark/js-race",
+  "license": {
+    "type": "MPL-2.0",
+    "url": "http://www.mozilla.org/en-US/MPL/2.0/"
+  },
+  "contributors": [
+    {
+      "name": "Ben Marks",
+      "email": "ben.marks@lexmark.com"
+    },
+    {
+      "name": "Josh Paquette",
+      "email": "joshua.paquette@lexmark.com"
+    }
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "webdriverio": "~3.3.0",
+    "selenium-standalone": "~4.8.0",
+    "q": "~1.4.1",
+    "underscore": "~1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "winston": "~1.1.0"
+  },
+  "bundledDependencies" : [
+    "webdriverio",
+    "selenium-standalone",
+    "q",
+    "underscore"
+  ]
+}

@@ -1,0 +1,22 @@
+# IntelliJ Idea
+.idea/
+*.iml
+**/*.iml
+
+# Node items
+!node_modules/
+node_modules/*
+!node_modules/my-module.js
+
+# phantomjs
+*/phantomjsdriver.log
+
+# metrics files for testing
+**/*.tsv
+
+# logs
+**/log
+test/*.log
+
+# screenshots
+**/screenshots
